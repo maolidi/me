@@ -1,0 +1,79 @@
+{
+  "id": "1454266",
+  "name": "个人简历",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1153175",
+      "name": "local",
+      "font_class": "local",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "2357310",
+      "name": "sex",
+      "font_class": "sex",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "5128786",
+      "name": "major_all",
+      "font_class": "major",
+      "unicode": "e6dc",
+      "unicode_decimal": 59100
+    },
+    {
+      "icon_id": "6054348",
+      "name": "tel",
+      "font_class": "tel",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "6118166",
+      "name": "学校",
+      "font_class": "degree",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "7395900",
+      "name": "WorkTime",
+      "font_class": "time",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "7941963",
+      "name": "学校",
+      "font_class": "school",
+      "unicode": "e7a3",
+      "unicode_decimal": 59299
+    },
+    {
+      "icon_id": "9445071",
+      "name": "日期",
+      "font_class": "date",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "10520901",
+      "name": "ethnic demography",
+      "font_class": "ethnic",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "10954718",
+      "name": "Email Hili",
+      "font_class": "email",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}
