@@ -70,6 +70,19 @@ a:hover{
     left: 0;
     animation: fadeShow 4s;
 }
+@media screen and (max-width: 767px) {
+    #root{
+        flex-direction: column;
+    }
+    #root #left-panel{
+        flex: auto;
+        width: auto;
+        overflow: unset;
+    }
+    #root #right-panel{
+        overflow: unset;
+    }
+}
 #root{
     position:relative;
     z-index: 10;
@@ -85,10 +98,12 @@ a:hover{
     animation: fadeDown 2s;
 }
 #left-panel{
-    background: #e2e2e2;
+    background: #e2e2e2cc;
     width: 200px;
     padding: 20px;
     color: #333e50;
+    flex:none;
+    overflow: auto;
 }
 #left-panel .title-box{
     background-color: #333e50;
@@ -103,10 +118,11 @@ a:hover{
 #right-panel{
     flex:auto;
     padding: 20px;
+    overflow: auto;
 }
 #right-panel .title-box{
     position:relative;
-    margin:15px 0;
+    margin:20px 0 15px 0;
 }
 #right-panel .title{
     background-color: #333e50;
@@ -135,9 +151,9 @@ a:hover{
     content:'';
     background: #fff;
     position: absolute;
-    top: -16px;
-    right: -8px;
-    height: 40px;
+    top: -12px;
+    right: -9px;
+    height: 35px;
     width: 20px;
     transform:rotateZ(-30deg)
 }
@@ -153,6 +169,29 @@ a:hover{
 #right-panel table{
     width: 100%;
     text-align: left;
+    margin: 10px 0;
+    border:1px dashed #333e50;
+    transition:all 0.2s ease-in-out;
+}
+#right-panel table:hover{
+    background: #eee;
+    border-color:#333e50;
+    box-shadow: 0 3px 6px rgba(0,0,0,.2), 0 3px 6px rgba(0,0,0,.26);
+}
+#right-panel table:hover .descript-title{
+    background: #fff;
+}
+.descript-title{
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px 0;
+    border-left: 4px solid #333e50;
+}
+.tag{
+    display: inline-block;
+    padding: 2px 5px;
+    background: #409eff;
+    color:#fff;
 }
 @keyframes fadeShow{
     0%{
